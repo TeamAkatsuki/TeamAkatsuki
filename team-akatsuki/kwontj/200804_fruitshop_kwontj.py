@@ -1,132 +1,49 @@
 import os
-str2 = None
-scanfile = []
-exam = []
-t= 0
-g = 0
-mun = ""
-savelist =[]
-fg = ""
-filelist = []
 
-thirdlist = []
-def trans(file):
-    e_list = []
-    file = file.split(",")
-    for a in range(int(len(file)/2)):
-            e_list.append([file[a*2],int(file[a*2+1])])
+report_data = []
+# 데이터 저장
 
-    return e_list
+def dir_list(param_string):
+    with os.scandir(param_string) as entries:
+        for entry in entries:
+            file_name = entry.name
+            print(file_name)
+            make_report(transform_data("{0}\\{1}".format(param_string,file_name)))
 
-def joongbok(file,ex_list):
-    for a in range(len(file)):
-        no_dupl = False
-        for b in range(len(ex_list)):
-            if file[a][0] == ex_list[b][0]:
-                no_dupl = True
-                break
-        if no_dupl:
-            ex_list[b][1] = file[a][1] + ex_list[b][1]
-        else:
-            ex_list.append(file[a])
-
-    return ex_list
-def reading(file):
-
-    with open(file,"r") as f:
+def transform_data(param):
+    data_list = []
+    with open(param, 'r', encoding='utf8') as f:
         line1 = f.readline()
         line2 = f.readline()
-        if line1 == "testprogram\n":
-            return line2
+        print(line2)
+        temp_list = line2.split(",")
+        length = len(temp_list)
+        length = int(length / 2)
+        for i in range(length):
+            data_list.append([temp_list[i * 2], temp_list[i * 2 + 1]])
+    print(data_list)
+    return data_list
+
+def check_dupl(item_list):
+    # 중복여부, 중복인덱스
+    for i in range(len(report_data)):
+        if report_data[i][0] == item_list[0]:
+            return True, i
+    return False, None
+
+def make_report(param_list):
+    # [['a', 1], ['b', 1], ['a', 1], ['c', 1]]
+    for i in param_list:
+        # ['a', 1]
+        is_dupl, idx_dupl  = check_dupl(i)
+        if is_dupl:
+            report_data[idx_dupl][1] = i[1] + report_data[idx_dupl][1]
         else:
-            print("""
-=============================
-지원하지 않는 파일입니다
-============================="""
-            )
-            return 0
-while True:
-    secondlist = []
-    savelist = []
-    select =input(
-"""=============================
-1. 상품등록하기
-2. 상품파일불러오기
-3. 현재상품목록
-4. 저장하기 
-5. 나가기
-=============================""")
+            report_data.append(i)
 
-    if select == "1":
-        first_str = input("""
-등록하실 상품명을 입력해주세요 :
-=============================""")
-        first_str = trans(first_str)
-        filelist = joongbok(first_str,filelist)
-        print("상품 추가완료 :",filelist)
-    elif select == "2":
-        with os.scandir("reading") as entries:
-            t = 0
+    # csv 출력 형식으로 파일을 저장한다.
+    with open('202007.csv', 'w', encoding='utf8') as f:
+        for i in report_data:
+            f.write("{0},{1}\n".format(i[0],i[1]))
 
-            for entry in entries:
-                t= t+1
-                print("%d.%s"%(t,entry))
-                savelist.append(entry.name)
-            select2 = input()
-            select2 = int(select2)
-
-            if select2:
-                g = reading("reading\\%s"%savelist[select2-1])
-
-                if g != 0:
-                    g = trans(g)
-                    g = joongbok(g,secondlist)
-                    print(g)
-                    subselect = input("""
-1. 저장하기
-2. 취소 """)
-                else:
-                    subselect = "3"
-                if subselect == "1":
-                    filelist = joongbok(g,filelist)
-                elif subselect == "2":
-                    secondlist = []
-                elif subselect == "3":
-                    continue
-    elif select == "3":
-        print("현재 상품 목록")
-        if filelist == []:
-            print("상품목록이 비어 있습니다")
-        else:
-            print(filelist)
-
-    elif select == "4":
-        select3 = input(
-            """저장하실 파일이름을 적어주세요
-============================="""
-        )
-
-        f = open("reading\\%s.txt"%select3, "w")
-        for a in range(len(filelist)):
-            filelist[a][1] = str(filelist[a][1])
-            #for b in range()
-            thirdlist.append(filelist[a][0])
-            thirdlist.append(filelist[a][1])
-
-
-        fg = ",".join(thirdlist)
-        filelist = []
-        f.write("testprogram\n")
-        f.write(fg)
-        print(
-            """저장 성공 현재상품목록을 초기화합니다
-=============================""")
-        f.close()
-    elif select == "5":
-        print("종료합니다")
-        break
-    else:
-        print("다시 선택해주세요")
-        continue
-
-
+dir_list('202007')
