@@ -1,19 +1,23 @@
 import os
 
-savelist =[]
+savelist =[]    # 사용할 변수들 초기화
 fg = ""
 filelist = []
-
 thirdlist = []
-def trans(file):
+def trans(file): # 인수로 받은 문자열을 이중 리스트로 변환해주는 함수
     e_list = []
     file = file.split(",")
+    if len(file) % 2 == 1:
+        print(
+"""
+입력값이 잘못되었습니다 [상품이름,갯수] 양식으로 입력하세요
+=============================""")
+        return 0
     for a in range(int(len(file)/2)):
             e_list.append([file[a*2],int(file[a*2+1])])
-
     return e_list
 
-def joongbok(file,ex_list):
+def joongbok(file,ex_list):   # 두개의 리스트를 받아 중복값을 더한뒤 반환하는 함수
     for a in range(len(file)):
         no_dupl = False
         for b in range(len(ex_list)):
@@ -26,7 +30,8 @@ def joongbok(file,ex_list):
             ex_list.append(file[a])
 
     return ex_list
-def reading(file):
+
+def reading(file):  # 지정된 폴더의 파일을 모두 가져온다
 
     with open(file,"r") as f:
         line1 = f.readline()
@@ -57,26 +62,26 @@ while True:
 등록하실 상품명을 입력해주세요 : [상품이름,갯수] 양식으로 입력하세요
 =============================""")
         first_str = trans(first_str)
+        if first_str == 0:
+            continue
         filelist = joongbok(first_str,filelist)
         print("상품 추가완료 :",filelist)
     elif select == "2":
         with os.scandir("kwontj") as entries:
             t = 0
-
-
-
             for entry in entries:
                 t= t+1
                 print("%d.%s"%(t,entry.name))
                 savelist.append(entry.name)
+            print("불러오실 파일을 선택해주세요 : ")
             select2 = input()
             select2 = int(select2)
             if t == 0:
                 continue
             if select2:
                 g = reading("kwontj\\%s"%savelist[select2-1])
-                print(savelist[select2-1],"불러오기 성공")
                 if g != 0:
+                    print(savelist[select2 - 1], "불러오기 성공")
                     g = trans(g)
                     g = joongbok(g,secondlist)
                     print(g)
@@ -131,7 +136,7 @@ while True:
             f.write("testprogram\n")
             f.write(fg)
             print(
-            """저장 성공 현재상품목록을 초기화합니다
+"""저장 성공 현재상품목록을 초기화합니다
 =============================""")
             f.close()
     elif select == "5":
