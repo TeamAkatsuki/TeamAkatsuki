@@ -1,6 +1,8 @@
-# 1. 스트링을 페어리스트로 만드는 함수를 먼저 만든다. 본체를 먼저 만들고 통로를 만든다.
+import os  # 26. openwise에서 os 모듈을 사용하기 위해 import
 
-a = 'a,1,b,1,a,3,b,4,c,5,zxc,312'  # 2. 임의의 str을 부여한다, 파일 연결 전.
+
+# 1. 스트링을 페어리스트로 만드는 함수를 먼저 만든다. 본체를 먼저 만들고 통로를 만든다.
+# a = 'a,1,b,1,a,3,b,4,c,5,zxc,312'  # 2. 임의의 str을 부여한다, 파일 연결 전. # 27. 테스트용 str 비활성화
 
 
 def pairwise(param):  # 3. pairwise는 str를 받아서 pair.list로 만드는 함수 (arg - str, return - 2차원 리스트)
@@ -24,14 +26,31 @@ def sumwise(param):  # 13. 중복을 고려해서 합산하는 함수를 만든�
             if pi[0] == sum_list[pj][0]:  # 19. 중복이 발생하면
                 dbcheck = True  # 20. 중복 판독기 on
                 dbpos = pj  # 21. 중복 발생 위치 인덱스 저장
-        if dbcheck:
-            sum_list[pj][1] = pi[1] + sum_list[pj][1]
+        if dbcheck:  # 22. 중복이 발생하면
+            sum_list[dbpos][1] = pi[1] + sum_list[dbpos][1]  # 23. 해당 위치의 값을 합산
         else:
-            sum_list.append(pi)
-    return sum_list
-
-print(sumwise(pairwise(a)))
+            sum_list.append(pi)  # 24. 중복이 아닌 경우에는 리스트에 페어 추가
+    return sum_list  # 25. sumwise 완료된 리스트 반환
 
 
+def openwise(param):  # 28. 파일을 여는 함수 openwise 정의
+    with os.scandir(param) as files:  # 29. scandir로 프로그램이 실행되는 곳의 디렉토리 param을 검색
+        for file in files:  # 30. 29에서 불러온 파일 목록을 하나씩 읽어나감
+            names = file.name  # 31. .name 내장 함수로 files에서 불러온 file의 이름만 추출.
+            filelist = pairwise("{}\\{}".format(param, names))  # 32. param 디렉토리 하에 있는 file.name들을 pairwise하고  filelist에 담는다
+    return filelist  # 33. pairwise된 filelist를 반환
 
-sumwise(pairwise(a))
+
+def savewise(param):  # 34. 입력한 정보로 파일을 생성하는 함수
+    savelist = []  # 35. 함수를 통해 파일에 쓸 목록을 위한 빈 리스트
+    with open(param, 'r', encoding='utf8') as f:  # 36. param을 읽기 모드로 열고, 인코딩을 utf8로 한 후, f 내장함수 실행
+        line1 = f.readline()  # 37. f 내장함수 중 readline을 사용해서 한 줄을 읽어냄, line1이라 지정
+        line2 = f.readline()  # 38. readline을 사용해서 다음 줄을 읽음, line 2 지정
+        savelist = sumwise(pairwise(line2))  # 39. line2의 내용을 pairwise, 그리고 sumwise함
+        for pi in savelist:  # 40. 자료를 반복으로 돈다.
+            f.write("{},{}\n".format(pi[0],pi[1]))  # 41. 자료의 이름, 수량
+    with open('sale_list.csv', 'w', encoding='utf8') as f:
+        for pi in savelist:
+            f.write("{},{}\n".format(pi[0],pi[1]))
+
+openwise("sale_list")
