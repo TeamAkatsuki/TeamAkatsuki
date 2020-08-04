@@ -1,49 +1,34 @@
 import os
 
 
-#################################################################
-
-def sale_sort(param):
-    param = param.split(",")
-    dic = {}
-    for i in range(len(param)):
-        if i % 2 == 0:
-            if not param[i] in dic:
-                dic[param[i]] = int(param[i + 1])
-            else:
-                dic[param[i]] += int(param[i + 1])
-    return dic
-
-
-################################################################
-
-
-def sale_trans(param):
-    with open(param, 'r', encoding='utf8') as f:
-        line1 = f.readline()
-        line2 = f.readline()
-
-    return sale_sort(line2)
-
-
-################################################################
-
-
-def sale_file(param):
-    with open("sale.csv", "w", encoding="utf8") as f:
-        for i in param:
-            f.write("{},{}\n".format(i, param.get(i)))
-
-
-################################################################
-
-
-def sale_finish(param):
-    with os.scandir(param) as entries:
+def sale_str(p_dir):
+    all_str = ''
+    with os.scandir(p_dir) as entries:
         for entry in entries:
             file_name = entry.name
-            sale_list = sale_trans("{}\\{}".format(param, file_name))
-    return sale_list
-################################################################
+            with open("{}\\{}".format(p_dir, file_name), 'r', encoding='utf8') as file:
+                line1 = file.readline()
+                line2 = file.readline() + ','
+                all_str += line2
+    return all_str[:-1]
 
-sale_file(sale_finish("sale_box"))
+
+def sale_dic(p_str):
+    p_list = p_str.split(",")
+    all_dic = {}
+    for i in range(len(p_list)):
+        if i % 2 == 0:
+            if not p_list[i] in all_dic:
+                all_dic[p_list[i]] = int(p_list[i + 1])
+            else:
+                all_dic[p_list[i]] += int(p_list[i + 1])
+    return all_dic
+
+
+def sale_csv(p_dic):
+    with open("sale_file.csv", 'w', encoding='utf8') as sale_file:
+        for i in p_dic:
+            sale_file.write("{},{}\n".format(i, p_dic[i]))
+
+####################################################################
+sale_csv(sale_dic(sale_str("sale_box")))
