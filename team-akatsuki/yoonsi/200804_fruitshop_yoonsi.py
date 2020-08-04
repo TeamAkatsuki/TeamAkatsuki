@@ -1,5 +1,11 @@
-# input "a,1,b,2,a,3"
-sales = "a,1,b,2,a,3"
+############### 파일 불러오기 ###################
+
+f = open("..\\hello.txt", "r")  # 상위폴더에서 읽기도 가능
+sales = f.readline()
+
+###############################################
+
+
 list = sales.split(",")         #문자열 파일을 리스트로 변환
 data = []
 data2 = []
@@ -29,6 +35,14 @@ for j in data:        #j에다 data['a',1],['b',2],['a',3]를 넣어라
         data2[no_dupl][1] = j[1] + data2[no_dupl][1]
     else:
         data2.append(j)
+
+############### 파일 만들기 ###################
+
+opentest = open("test.csv", "w")
+opentest.write(str(data2))
+
+#############################################
+
 print("="*30)
 print(data2)
 
