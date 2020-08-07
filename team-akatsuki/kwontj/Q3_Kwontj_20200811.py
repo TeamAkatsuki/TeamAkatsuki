@@ -37,13 +37,13 @@ for a in range(0,10000):
     a.reverse()
     print(a,b)
     if len(a) % 2 == 0:
-        for c in range(len(a)):
-            if a == b:
-                empty_list.append(",".join(b))
+        if a == b:
+            empty_list.append(",".join(b))
     elif len(a) % 2 == 1:
         count2 = int(len(a)/2)
         if a[count2-1] == b[count2-1]:
             empty_list.append(",".join(b))
+
 
 print(empty_list)
 print(main_count(empty_list,20))
@@ -52,4 +52,4 @@ while True:
     if select == "q":
         break
 
-    print(main_count(empty_list,int(select)))
+    print(main_count(empty_list,int(select)-1))
