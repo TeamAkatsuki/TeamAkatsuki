@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T12:19:07+09:00
+
+====== BOM ======
+Created 화요일 21 7월 2020
+
+UTF - 8 with BOM
+
+BOM = 해당된 단어들을 읽는 정의를 앞에 포함하느냐, 포함하지 않느냐의 형식.
+
+OS 마다 차이가 있음.
+
+인터넷으로 파일을 보내고 받을 때는 텍스트 파일을 BOM이 있는 걸로 인코딩해서 보내야 함.
+
+{{.\pasted_image.png}}(메모장 저장 시)
+

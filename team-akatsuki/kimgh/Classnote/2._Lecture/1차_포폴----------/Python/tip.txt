@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-31T14:00:25+09:00
+
+====== tip ======
+Created 금요일 31 7월 2020
+
+구글 이용해서 코드 검색해서 쓸 것, 정확한 검색어로 검색!

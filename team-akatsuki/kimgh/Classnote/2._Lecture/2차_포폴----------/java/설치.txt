@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-17T14:07:03+09:00
+
+====== 설치 ======
+Created 월요일 17 8월 2020
+
+oracle - 제품 - Java SE 8u261 (제일 많이 쓰는 버전) JDK(Java Development Kit) 다운로드

@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-03T10:48:27+09:00
+
+====== 딕셔너리(dic) ======
+Created 월요일 03 8월 2020
+
+{{.\pasted_image.png}}
+{{.\pasted_image001.png}}
+
+
+**__similar to Associative array / Hash__**
+딕셔너리는 Key와 Value를 순서쌍으로 가지기 때문에, []를 사용하는 것이
+다른 참조형과는 다르다. 인덱스를 의미하지 않고, key를 의미하게 됨.
+
+
+--------------------
+
+
+
+{{.\pasted_image002.png}}
+{{.\pasted_image003.png}}
+
+
+--------------------
+
+
+{{.\pasted_image004.png}}
+{{.\pasted_image005.png}}

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T17:15:02+09:00
+
+====== SQL lite 3 ======
+Created 화요일 21 7월 2020
+

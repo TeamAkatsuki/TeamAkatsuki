@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T15:54:28+09:00
+
+====== 파일 읽고 쓰기 ======
+Created 화요일 21 7월 2020
+
+f = open("새파일.txt", "w")
+
+**r rb w wb a ab**
+**read write add**
+**readbinary writebinary addbinary**
+(바이너리로 저장할 때 일정한 형식이 있어서 txt로 읽을 수 없음. 한글, 이미지, 동영상 등이 바이너리 파일)
+
+f.close()
+
+이렇게 열면 쓰기모드로 새파일 텍스트를 열게 되고
+__닫지 않으면 다른 프로그램에서 열 수 없다__
+
+--------------------
+
+**with open(변수,모드,인코딩(선택)) as f:**
+
+식으로 쓰면 close  안해도 됨 취향따라 f.를 쓰든 with as를 쓰든.
+
+
+{{.\pasted_image.png}}{{.\pasted_image001.png}}
+
+
+===== readline =====
+{{.\pasted_image002.png}}
+while을 돌려서 끝까지 간다음 readline의 내용이 없어  False가 되면 break 됨.
+
+
+===== readlines =====
+
+{{.\pasted_image003.png}}
+lines는 list로 형성되고, 리스트의 요소가 끝날 때까지 반복하는 식으로 출력
+
+===== read =====
+{{.\pasted_image004.png}}
+모든 텍스트를 읽는다
+

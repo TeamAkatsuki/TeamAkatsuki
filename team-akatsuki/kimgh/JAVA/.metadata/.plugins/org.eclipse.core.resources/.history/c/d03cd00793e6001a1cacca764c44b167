@@ -1,0 +1,16 @@
+package chap05;
+
+public class ArrayCopyExample {
+	public static void main(String [] args) {
+		String[] oldStrArray = {"java", "array", "copy"};
+		String[] newStrArray = new String[5];
+		
+		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length); 
+//		{}의 {}번째 인덱스부터 불러와서 {}의 {}번째 인덱스부터 {}까지의 요소를 가져온다.
+		
+		for(int i = 0; i < newStrArray.length; i++) {
+			System.out.print(newStrArray[i] + ",");
+		}
+	}
+
+}

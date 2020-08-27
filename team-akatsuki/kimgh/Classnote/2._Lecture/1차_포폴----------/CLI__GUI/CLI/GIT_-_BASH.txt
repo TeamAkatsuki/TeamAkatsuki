@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T13:48:47+09:00
+
+====== GIT - BASH ======
+Created 화요일 21 7월 2020
+
+===== 🏁️GIT의 shell, Unix =====
+
+✅️
+ll = 상세 목록
+ls = 간단 목록
+
+✅️
+git init = git 초기화
+
+
+✅️
+git config --list = 전체 리스트 열람
+git config --global --edit = 글로벌 권역 환경 설정
+git config --global (user.name) "****" = () 항목에 대해 설정
+git config --unset --global user.name
+
+✅️
+git status = git 상태
+git add **.** = 추가 명령
+git -rm **.** = 삭제 명령
+git commit -m "*****" = 커밋하고 내역 작성
+git log = 커밋 내역 확인
+

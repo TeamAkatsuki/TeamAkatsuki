@@ -1,0 +1,12 @@
+package chap06;
+
+public class Car {
+	public static void main(String[] args) {
+		class Car() {
+			String company = "Çö´ë";
+		
+		
+	}
+
+}
+}

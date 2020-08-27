@@ -1,0 +1,45 @@
+package chap04.ex;
+
+import java.util.Scanner;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		
+		boolean run = true;
+		
+		int balance = 0;
+		
+		Scanner scanner = new Scanner(System.in);
+		String inputString;
+		
+		int keyCode = 0;
+		
+		while(run) {
+			System.out.println("=====================================");
+			System.out.println("1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료");
+			System.out.println("=====================================");
+			System.out.print("선택>");
+			inputString = scanner.nextLine();
+		}
+			
+			keyCode = System.in.read();
+			
+			{
+			
+			if (keyCode == 49) {
+				System.out.println("얼마 넣을라고?");
+			}
+			else if(keyCode == 50) {
+				System.out.println("얼마 뺄라고?");
+			}
+			else if(keyCode == 51) {
+				System.out.println(balance + "원 있다");
+			}
+			else {
+				
+			}
+				
+			}
+		}
+	}
+}

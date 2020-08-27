@@ -1,0 +1,27 @@
+package chap05;
+
+public class EnumMethodExample {
+	public static void main(String [] args) {
+		//name() 메쏘드
+		Week today = Week.SUNDAY;
+		String name = today.name();
+		
+		//열거 객체가 가지고 있는 문자열을 리턴한다
+		System.out.println(name);
+		
+		//ordinal() 멨오드
+		int ordinal = today.ordinal();
+		
+		//전체 열거 객체 중에 몇 번째 열거 객체인지 리턴한다
+		System.out.println(ordinal);
+		
+		//compareTo() 메쏘오오오드
+		Week day1 = Week.MONDAY;
+		Week day2 = Week.TUESDAY;
+		int result1 = day1.compareTo(day2);
+		int result2 = day2.compareTo(day1);
+		System.out.println(result1);
+		System.out.println(result2);
+	}
+
+}

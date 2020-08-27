@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-03T10:27:41+09:00
+
+====== 튜플(tuple) ======
+Created 월요일 03 8월 2020
+
+{{.\pasted_image.png}}
+
+리스트와 참조형이라는 점에서 같지만, **__추가수정, 삭제__** 기능을 사용할 수 없다.
+요소 뒤에 반드시 콤마를 붙여야 한다는 특징을 참고
+
+{{.\pasted_image001.png}}
+
+용도에 따라 다양한 자료형으로 저장할 줄 알아야 함.

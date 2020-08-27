@@ -1,0 +1,1 @@
+asdf,75,김근호,25,default1,1,default2,1,default3,1,

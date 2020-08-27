@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-04T10:23:41+09:00
+
+====== 클래스 ======
+Created 화요일 04 8월 2020
+
+함수는 argument를 parameter로 받고 return을 출력하는데, 입력했던 argument를 기억하지 않음.
+클래스는 보관함. 메모리에 넣는다. 함수는 동작만 하고 끝, 클래스는 함수를 생산해내며 입력한 arg와 return을 모음.
+
+클래스 이름은 대문자로 시작.
+
+--------------------
+
+{{.\pasted_image.png}}(ex)
+
+__init__ -> 클래스가 인스턴스를 처음 만들 때 무조건 실행해야 하는 것들을 구축
+
+cal1,cal2 ->클래스를 사용해서 cal(인스턴스)을 만든 것,
+
+cal1.add(*arg) -> Calculator 클래스를 받은 인스턴스인 cal1에게 안에 들어 있는 add를 실행하라고 하는 것,
+
+--------------------
+
+===== 비교 =====
+{{.\pasted_image001.png}}
+**__함수 2개로 각각 global variable을 끌어와서 add할 때__**
+
+
+{{.\pasted_image002.png}}
+**__Class로 지정한 인스턴스 2개로 add할 때__**

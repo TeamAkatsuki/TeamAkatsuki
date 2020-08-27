@@ -1,0 +1,56 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-24T10:05:51+09:00
+
+====== 함수 ======
+Created 금요일 24 7월 2020
+
+
+{{.\pasted_image004.png}}
+
+
+===== 장소.count(대상) - 개수 세기 =====
+
+a = "hobby"
+**a.count**('b')
+» 2
+
+===== 장소.find(대상) - 위치 찾기**_{(__-1__ 반환, 대소문자 구분)}** =====
+
+
+**__처음으로 나오는 걸 반환한다__**
+
+
+a = "Python is the best choice"
+**a.find**('b')
+» 14
+**a.find**('k')
+» __-1__
+
+{{.\pasted_image.png}}(if + find)
+
+{{.\pasted_image001.png}}(for와 if로 find 만들기)
+
+
+
+
+===== 장소.index(대상) - 위치 찾기_{(__오류__ 반환, 대소문자 구분)} =====
+
+
+**__처음으로 나오는 걸 반환한다__**
+
+a = "Python is the best choice"
+**a.index**('b')
+» 14
+**a.index**('k')
+» __ValueError : substring not found__
+
+
+--------------------
+
+===== 'abcd' -> 'a:b:c:d' -> ['a','b','c','d'] -> 'abcd' =====
+
+
+{{.\pasted_image003.png}}
+
+

@@ -1,0 +1,40 @@
+package chap06.method;
+
+public class Car {
+
+	//ÇÊµå
+	
+	int gas = 15;
+	
+	//»ý¼ºÀÚ
+	
+	
+	
+	//¸Þ¼Òµå
+	
+	void setGas(int gas) {
+		this.gas = gas;
+	}
+	
+	boolean isLeftGas() {
+		if(gas == 0) {
+			System.out.println("±â¸§ ¾ø´Ù");
+			return false;
+		}
+		
+		System.out.println("±â¸§ ÀÖ´Ù");
+		return true;
+	}
+	
+	void run() {
+		while(true) {
+			if(gas > 0) {
+				System.out.println("´Þ·Á¾ù.(±â¸§ :" + gas + ")");
+				gas -= 1;
+			}else {
+				System.out.println("¸Ø­Ÿ.(±â¸§ : " + gas + ")");
+				return;
+			}
+		}
+	}
+}

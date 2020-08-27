@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T12:39:25+09:00
+
+====== IDLE ======
+Created 화요일 21 7월 2020
+
+
+
+메모장, cmd - 가장 기본적인 에디터
+
+python38-32를 등록해 놓으면 PATH에 저장된 대로 실행하자마자 그리고 연결
+
+
+== ======================================== ==
+
+IDLE - 파이썬 환경을 만들어 놓고 작업하는 에디터, 원하는 버전으로 선택하여 실행 가능 
+
+✅️파이참
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+✅️비쥬얼 스튜디오
+
+
+
+== =============================== ==
+
+

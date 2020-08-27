@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-29T10:50:34+09:00
+
+====== input ======
+Created 수요일 29 7월 2020
+
+
+input("asdf") -> 입력값만 받음 이 때 입력값은 모두 문자열
+
+print(input("asdf")) -> input 먼저 수행하고
+
+{{.\pasted_image.png}}(위 1행, 나머지 행에서 차이 확인)
+

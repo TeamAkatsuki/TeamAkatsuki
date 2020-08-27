@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-22T16:21:46+09:00
+
+====== 2. Clone ======
+Created 수요일 22 7월 2020
+
+===== 저장소 받아오기(본인) =====
+1. github 접속
+2. clone 시킬 디렉토리 생성
+3. 디렉토리 git init
+4. git clone 사용자명@호스트:/__원격/서버/주소__
+
+ex) gust9988@github.com:/gust9988/testnote.git

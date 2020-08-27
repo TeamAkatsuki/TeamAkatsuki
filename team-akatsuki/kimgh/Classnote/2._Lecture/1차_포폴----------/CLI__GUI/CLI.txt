@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-22T08:58:04+09:00
+
+====== CLI ======
+Created 수요일 22 7월 2020
+
+===== 🏁Command Line Interface =====
+
+
+**명령어 인터페이스**

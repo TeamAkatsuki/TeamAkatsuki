@@ -1,0 +1,72 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-23T10:59:28+09:00
+
+====== 함수 ======
+Created 목요일 23 7월 2020
+
+함수 이름은 변수와 마찬가지로 소문자로 지정한다.
+underbar의 coding convention을 사용함.
+
+
+--------------------
+
+===== 함수의 공간 =====
+{{.\pasted_image.png}}
+
+함수는 **__별도__**의 작업공간을 만들고 그 안에서 실행된다. Global frame과 별도의 공간이다
+따라서 함수 내에서의 변수는 함수 내에서만 쓸 수 있고, Global에서 접근이 불가능하다
+그러나 add는 Global frame 하에 있으므로 Global frame의 변수는 사용할 수 있다.
+add의 작업 공간은 실행이 끝나면 사라짐.
+
+**__global variable -> add 영역이 아니라 global에 있는 변수를 가져옴!__**
+
+{{.\pasted_image001.png}}
+Global에서 함수를 지정하면, Objects로 넘어가서 독립적인 작업공간을 만드는 과정을 거침
+현재 실행 중에 사용가능한 변수들의 집합, 범위를 **__Scope__**라고 함 
+{{.\pasted_image002.png}}
+함수 add가 독립적인 scope를 가지는 것을 알 수 있다. 
+
+
+--------------------
+
+===== 입출력 =====
+
+**I O 함수**
+**O 함수**
+**I 함수**
+**함수**
+
+**parameter / argument**
+
+def function(parameter):
+	
+	return
+
+argument는 상수로 대입되는 것, parameter는 argument를 def로 전달하는 매개변수
+
+args - 인수
+print_kwargs - 매개변수 출력하는 함수
+
+
+**return(반환값 - O)**
+
+return을 만나면 바로 함수는 종료됨.  return을 아무리 많이 써도 첫 return을 만나면 작업 종료.
+**__함수의 return 값은 함수를 호출한 곳으로 돌아간다__**
+
+
+네 가지 모두 존재. 
+
+--------------------
+
+===== lambda =====
+
+굳이 재사용할 필요 없이, 이름 지어줄 필요 없는 함수를 만들 때 사용.
+lambda로 만든 함수는 return이 없어도 결괏값을 돌려준다.
+
+_{(함수 임시 이름)} = __lambda__ _{(para) }__,___{ (para2) }__:__ _{(return 값)}
+
+--------------------
+
+
+

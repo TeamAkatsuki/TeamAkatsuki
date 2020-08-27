@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-27T09:55:14+09:00
+
+====== venv ======
+Created 월요일 27 7월 2020
+
+file - setting - Project 이름 - Project interpreter - 기존 가상환경 제거하거나 새로 추가 가능

@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-22T17:36:33+09:00
+
+====== 1. signin-add-commit-push ======
+Created 수요일 22 7월 2020
+
+===== hub 설정 =====
+1. github sign in
+2. new repository
+3. 이름 짓기 __원격/서버/주소__ **맨 뒤에 .git 조심!**
+
+===== 초기파일 =====
+1. hub 3에서 지은 주소 이름과 동일한 폴더 생성
+2. shell
+3. git init
+4. git add .
+5. git status 로 확인
+6. git commit  -m "First file"
+7. git log 확인
+8. git remote add origin __원격/서버/주소__
+9. git push origin master
+10. git hub 확인
+
+===== 수정 이후 =====
+
+1. git status로 변경사항 확인
+2. git add .
+3. git status 확인
+4. git commit -m "   "
+5. git log 확인
+6. git push origin master

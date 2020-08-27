@@ -1,0 +1,11 @@
+package chap05;
+
+public class EnumMethodExample {
+	public static void main(String [] args) {
+		//name() ¸Þ½îµå
+		Week today = Week.SUNDAY;
+		String name = today.name();
+		System.out.println(name);
+	}
+
+}

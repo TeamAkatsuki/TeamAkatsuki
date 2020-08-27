@@ -1,0 +1,1 @@
+asdf,37.5,김근호,6.25,default1,1.0,default2,1.0,default3,1.0,

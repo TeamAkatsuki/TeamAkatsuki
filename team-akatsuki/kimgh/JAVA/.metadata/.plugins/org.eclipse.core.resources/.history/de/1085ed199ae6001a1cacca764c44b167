@@ -1,0 +1,18 @@
+package chap05;
+
+public class EnumMethodExample {
+	public static void main(String [] args) {
+		//name() 메쏘드
+		Week today = Week.SUNDAY;
+		String name = today.name();
+		
+		//열거 객체가 가지고 있는 문자열을 리턴한다
+		System.out.println(name);
+		
+		//ordinal() 멨오드
+		int ordinal = today.ordinal();
+		
+		System.out.println(ordinal);
+	}
+
+}

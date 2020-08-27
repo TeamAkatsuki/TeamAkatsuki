@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-23T10:17:31+09:00
+
+====== 포매팅 ======
+Created 목요일 23 7월 2020
+{{.\pasted_image003.png}}
+
+===== %nd (n은 자연수) =====
+로 들어가면 n자리수의 정수로 표기한다
+
+
+===== 직작코드 =====
+
+{{.\pasted_image001.png}} - 2단
+
+{{.\pasted_image002.png}} - 구구단
+
+{{.\pasted_image006.png}} - 가로 구구단

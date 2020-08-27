@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-07T12:28:12+09:00
+
+====== 기본형 ======
+Created 금요일 07 8월 2020
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88145d66-af75-48fe-84e3-7edcd41ad382" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/11/f0ff174abbe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/13/80a5fd1dbde2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/18/e0ec6883aee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/1b/606ab4abbfe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/1b/8073dbd8b5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/2/d0175a81b3e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/21/501c14eda9e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/23/30de90c7a6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/26/3007ddf7bfe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/28/102e6e0ca5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/28/60e755c4bae2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/2a/60a6fedfb4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/2a/c0337a1db4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/2f/90c6041dbde2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/3e/1044e8c2aee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/42/100924fca6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/46/10617e23bee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/4b/7013822bbee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/4d/402f8b8eace2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/4e/50509686b4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/50/401d2901aee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/52/3003428eaae2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/54/c0e6b4f7b4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/6/a00987dca5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/64/a0f208b5b2e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/65/00200b29bee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/66/901594ebb5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/6b/a0073955aae2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/6c/70a3c9b9bce2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/7/800e5093a5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/71/30ac576ab5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/72/308a1e6babe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/72/50e80da3bfe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/74/d08e8c8eace2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/79/302ca3f4afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/7a/00f7aee8b5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/7d/30bd1434afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/86/10d3dcd8b5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/8f/305752ada4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/92/4034d3bbaae2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/93/e0b8496babe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/94/70889571b3e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/95/20fac847abe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/9d/900c5c2faee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/a/d046fddfb4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/a4/009cb876a6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/a5/30e733fb6be3001a1f6e88cdf2a06c4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/a8/10a6c72caee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/a9/a031782787e3001a1f6e88cdf2a06c4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/ad/905b8db9ade2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/af/a003e05bbfe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/b2/801a1721bde2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/b6/008ab280afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/b6/00c72084b5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/b8/70a8b0edbfe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/bd/f0b292c7a6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c0/10550b52afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c1/10356815aae2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c5/2010b1f8abe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c7/808e1f84b5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c7/80b26a1ba5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c9/b032f1b1afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/c9/c0c2bfeea4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/cd/700e0e54a5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/d3/b08c0926a6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/d7/a0172876ade2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/d8/b0047840a5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/d9/00285bb9ade2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/da/9019353ea5e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/db/307631fb6be3001a1f6e88cdf2a06c4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/dd/9064e4b4bbe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/dd/d019262aa6e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/de/a010b480afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e1/a03ca5eca3e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e2/10308980afe2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e3/507a586ebde2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e4/0063d3b5bce2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e5/b0c5f69ca9e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/e6/b021d35fbde2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/f/30f1d4f8bee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/f2/00c67ff5aee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/f3/c09a03b6bce2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/f4/60e4681fb4e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/f8/10b3b92ea3e2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.history/fd/10170041bee2001a125bb6dd3ae7ea54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a6/1f/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a6/1f/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a8/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a8/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a9/b3/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/a9/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.indexes/e4/aa/b3/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.root/10.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.resources/10.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.jdt.core/2631265121.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.jdt.core/2631265121.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/eclipse/configuration/org.eclipse.core.runtime/.manager/.tmp5294402211730081107.instance" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/eclipse/configuration/org.eclipse.equinox.app/.manager/.tmp9066571773599485640.instance" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DICERS_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/DICERS_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DICERS_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/DICERS_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DICERS_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/DICERS_rank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DICERS_rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/DICERS_rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranks/clever.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ranks/clever.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranks/long.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ranks/long.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranks/rich.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ranks/rich.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ftY1b18ISn0SmLdVllQHSV20uT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/DICERS_game_1.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kimgh\class\Python\PycharmGUIProjects\material" />
+      <recent name="D:\kimgh\class\Python\PycharmGUIProjects\ranks" />
+      <recent name="D:\kimgh\class\PycharmGUIProjects" />
+      <recent name="D:\kimgh\class\PycharmGUIProjects\PyQt5ex" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kimgh\class\Python\PycharmGUIProjects" />
+      <recent name="D:\kimgh\class\PycharmGUIProjects\Pygame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DICERS_main (1)">
+    <configuration name="DICERS_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmGUIProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DICERS_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DICERS_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmGUIProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DICERS_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DICERS_rank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmGUIProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\kimgh\class\Python\PycharmGUIProjects\DICERS_rank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DICERS_rankcal (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmGUIProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DICERS_rankcal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmGUIProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DICERS_main (1)" />
+        <item itemvalue="Python.DICERS_rankcal (1)" />
+        <item itemvalue="Python.DICERS_game" />
+        <item itemvalue="Python.asdf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88145d66-af75-48fe-84e3-7edcd41ad382" name="Default Changelist" comment="" />
+      <created>1597038641286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597038641286</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597890879525">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="688" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1200@0.0.1858.1200" timestamp="1597890879525" />
+    <state x="659" y="346" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598314323655">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="659" y="346" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1200@0.0.1858.1200" timestamp="1598314323655" />
+    <state x="772" y="506" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1598516971662">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="772" y="506" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1858.1200@0.0.1858.1200" timestamp="1598516971662" />
+    <state x="675" y="452" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598511697472">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="675" y="452" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1200@0.0.1858.1200" timestamp="1598511697472" />
+    <state x="92" y="92" width="1674" height="1016" maximized="true" key="DiffContextDialog" timestamp="1597891041278">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="92" y="92" width="1674" height="1016" maximized="true" key="DiffContextDialog/0.0.1858.1200@0.0.1858.1200" timestamp="1597891041278" />
+    <state x="709" y="355" key="FileChooserDialogImpl" timestamp="1598514493372">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="709" y="355" key="FileChooserDialogImpl/0.0.1858.1200@0.0.1858.1200" timestamp="1598514493372" />
+    <state width="1837" height="328" key="GridCell.Tab.0.bottom" timestamp="1598523737585">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="328" key="GridCell.Tab.0.bottom/0.0.1858.1200@0.0.1858.1200" timestamp="1598523737585" />
+    <state width="1837" height="328" key="GridCell.Tab.0.center" timestamp="1598523737585">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="328" key="GridCell.Tab.0.center/0.0.1858.1200@0.0.1858.1200" timestamp="1598523737585" />
+    <state width="1837" height="328" key="GridCell.Tab.0.left" timestamp="1598523737585">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="328" key="GridCell.Tab.0.left/0.0.1858.1200@0.0.1858.1200" timestamp="1598523737585" />
+    <state width="1837" height="328" key="GridCell.Tab.0.right" timestamp="1598523737585">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="328" key="GridCell.Tab.0.right/0.0.1858.1200@0.0.1858.1200" timestamp="1598523737585" />
+    <state width="1837" height="412" key="GridCell.Tab.1.bottom" timestamp="1598516982284">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="412" key="GridCell.Tab.1.bottom/0.0.1858.1200@0.0.1858.1200" timestamp="1598516982284" />
+    <state width="1837" height="412" key="GridCell.Tab.1.center" timestamp="1598516982283">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="412" key="GridCell.Tab.1.center/0.0.1858.1200@0.0.1858.1200" timestamp="1598516982283" />
+    <state width="1837" height="412" key="GridCell.Tab.1.left" timestamp="1598516982283">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="412" key="GridCell.Tab.1.left/0.0.1858.1200@0.0.1858.1200" timestamp="1598516982283" />
+    <state width="1837" height="412" key="GridCell.Tab.1.right" timestamp="1598516982283">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state width="1837" height="412" key="GridCell.Tab.1.right/0.0.1858.1200@0.0.1858.1200" timestamp="1598516982283" />
+    <state x="430" y="244" key="SettingsEditor" timestamp="1598321480602">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="430" y="244" key="SettingsEditor/0.0.1858.1200@0.0.1858.1200" timestamp="1598321480602" />
+    <state x="772" y="384" key="refactoring.ChangeSignatureDialog" timestamp="1598349527148">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="772" y="384" key="refactoring.ChangeSignatureDialog/0.0.1858.1200@0.0.1858.1200" timestamp="1598349527148" />
+    <state x="592" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1598510109583">
+      <screen x="0" y="0" width="1858" height="1200" />
+    </state>
+    <state x="592" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1858.1200@0.0.1858.1200" timestamp="1598510109583" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DICERS_rankcal.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-31T16:31:53+09:00
+
+====== CSV ======
+Created 금요일 31 7월 2020
+
+1,2,3
+3,v,v
+
+등, 텍스트로 입력한다음 저장해서 엑셀로 부르면
+각 셀에 정보가 들어가는 식으로 엑셀에 입력된다

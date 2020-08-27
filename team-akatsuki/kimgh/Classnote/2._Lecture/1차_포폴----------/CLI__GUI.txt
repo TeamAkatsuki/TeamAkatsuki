@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T17:18:47+09:00
+
+====== CLI  GUI ======
+Created 화요일 21 7월 2020
+

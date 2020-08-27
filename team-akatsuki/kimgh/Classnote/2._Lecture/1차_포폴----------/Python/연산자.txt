@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T17:38:08+09:00
+
+====== 연산자 ======
+Created 화요일 21 7월 2020
+
+===== = =====
+
+대입 연산자, 같다는 의미의 등호는 2개, 3개를 씀.
+a = 1이라 하면 메모리는 Global frame에 1의 위치를 기억함.
+값은 기억하지 않음. 이러한 행위를 define이라고 함. 선언된 당시의 값을 기억하고 있음.
+
+
+{{.\pasted_image001.png}}
+{{.\pasted_image002.png}}
+{{.\pasted_image003.png}}대입하지 않으면 반영 X
+{{.\pasted_image004.png}}
+--------------------
+
+
+
+===== 논리 연산자 =====
+
+**x or y** x와 y 둘 중에 하나만 참이어도 참
+**x and y** x와 y 둘 다 참이어야 참
+**not x** x가 거짓이면 참
+
+**x in s **x가 s(리스트, 류플, 문자열) 안에 있으면
+**x not in s** x가 s(리스트, 튜플, 문자열) 안에 있으면
+
+
+===== 할당 연산자 =====
+
+{{.\pasted_image005.png}}

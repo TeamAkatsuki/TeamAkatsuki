@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-04T14:14:34+09:00
+
+====== 클래스 vs 인스턴스 ======
+Created 화요일 04 8월 2020
+
+===== 클래스 변수 vs 인스턴스 변수 =====
+
+{{.\pasted_image.png}}
+(class 안에 있는 객체들에 영향 받지 않고 lastname 이라는 변수를 유지하고 있다.)
+
+{{.\pasted_image001.png}}

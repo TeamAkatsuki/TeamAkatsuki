@@ -1,0 +1,15 @@
+package chap05;
+
+public class StringEqualExample {
+	public static void main(String [] args) {
+		String strVar1 = "김근호";
+		String strVar2 = "김근호";
+		
+		if(strVar1 == strVar2) {
+			System.out.println("참조가 같다");
+		}else {
+			System.out.println("참조가 다르다");
+		}
+	}
+
+}

@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-21T11:29:45+09:00
+
+====== for ======
+Created 화요일 21 7월 2020
+
+🏁️**반복문**
+https://wikidocs.net/21
+
+for a in [1, 2, 3 ,4, 5, 6]:
+	print(a)
+
+>>>
+
+1
+2
+3
+4
+5
+6
+
+뒤에 있는 범위에서 a를 순차적으로 대입하라는 반복문
+**__인덱스가 존재하는 자료형에서 사용 가능 : list, tuple, string, dic__**
+ **__for 문도 while처럼 continue 사용 가능__**
+
+--------------------
+
+
+{{.\pasted_image.png}}
+
+**__for문의 요점 : 반복할 수 있느냐임.__**
+
+반복만 할 수 있으면 코드블럭 안에 끌어안고 있는 명령을 자료형의 끝까지 가면서 실행함.
+
+{{.\pasted_image001.png}}
+
+i의 인덱스를 따라가면서 R이 나오면 ㅋㅋ를 출력함
+
+
+--------------------
+
+
+{{.\pasted_image003.png}}
+
