@@ -1,0 +1,40 @@
+*{margin: 0px; padding: 0px}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    width: 1900px;
+    height: 95px;
+    background-color: white;
+
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    
+}
+#top_menu{
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    color:black;
+    font-size: small;
+}
+
+#top_menu a {color: black;}
+
+nav{
+    position: absolute;
+    bottom: 10px;
+    left: 500px;
+    font-size: x-large;
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+
+nav li a{color: black;}
