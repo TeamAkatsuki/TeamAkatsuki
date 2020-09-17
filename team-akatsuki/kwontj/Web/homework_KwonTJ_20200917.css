@@ -1,0 +1,71 @@
+
+*{
+            box-sizing: border-box;
+}
+
+div.header{
+    float: left;
+    background-color: greenyellow;
+    width: 30%;
+    padding:0px;
+    height: 5px;
+    position: relative;
+    left: 15%;
+    right:15%;
+}
+div.header2{
+    float: left;
+    width: 5%;
+    padding:0px;
+    height: 5px;
+    position: relative;
+
+}
+div.header3{
+    float: left;
+    width: 15%;
+    padding:0px;
+    height: 5px;
+    position: relative;
+
+}
+div.header4{
+    float: left;
+    width: 15%;
+    padding:0px;
+    height: 5px;
+    position: relative;
+
+}
+div.header5{
+    float: left;
+    width: 20%;
+    padding:0px;
+    height: 5px;
+    position: relative;
+
+}
+div.h2{
+    float:left;
+    position: relative;
+    width:70%;
+    border: 3px solid black;
+    right: 15%;
+    left:15%;
+    
+    
+}
+
+img.fimg{
+    float: left;
+    width:10%;
+    position: relative;
+    
+
+
+    
+    
+    
+}
+
+
