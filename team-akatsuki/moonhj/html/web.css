@@ -32,153 +32,96 @@ body{
     text-align: center;
 }
 
-
-.card1{
+.grid_container1>*{
     color: white;
-    background-color: rgb(32,32,32);
-    grid-column: 1 / 4;
     padding: 20px;
     font-size: 30px;
+}
+
+
+.card1{
+    background-color: rgb(32,32,32);
+    grid-column: 1 / 4;
 }
 
 .card2{
-    color: white;
     background-color: rgb(23, 99, 149);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card3{
-    color: white;
     background-color: rgb(158, 158, 158);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card4{
-    color: white;
     background-color: rgb(158, 158, 158);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card5{
-    color: white;
     background-color: rgb(39, 139, 204);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card6{
-    color: white;
     background-color: rgb(89, 174, 230);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card7{
-    color: white;
     background-color: rgb(94, 94, 94);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card8{
-    color: white;
     background-color: rgb(57, 138, 191);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card9{
-    color: white;
     background-color: rgb(32, 32, 32);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card10{
-    color: white;
     background-color: rgb(44, 44, 44);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card11{
-    color: white;
     background-color: rgb(133, 133, 133);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card12{
-    color: white;
     background-color: rgb(12, 12, 12);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card13{
-    color: white;
     background-color: rgb(22, 22, 22);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card14{
-    color: white;
     background-color: rgb(22, 22, 22);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card15{
-    color: white;
     background-color: rgb(57, 88, 136);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card16{
-    color: white;
     background-color: rgb(22, 22, 22);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card17{
-    color: white;
     background-color: rgb(94, 195, 235);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card18{
-    color: white;
     background-color: rgb(66, 65, 65);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card19{
-    color: white;
     background-color: rgb(57, 138, 191);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card20{
-    color: white;
     background-color: rgb(22, 22, 22);
-    padding: 20px;
-    font-size: 30px;
 }
 
 .card21{
-    color: white;
     background-color: rgb(23, 99, 149);
-    padding: 20px;
-    font-size: 30px;
     grid-column:3 /6 ;
 }
 
