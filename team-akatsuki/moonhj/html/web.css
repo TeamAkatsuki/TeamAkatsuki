@@ -1,0 +1,194 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Niramit','Noto Sans KR',sans-serif;
+    background-color: black;
+}
+
+.top{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.grid_container1{
+    background-color: rgb(0, 0, 0);
+    display: grid; 
+    border: 10px solid rgba(black, .1);
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:10px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+
+.card1{
+    color: white;
+    background-color: rgb(32,32,32);
+    grid-column: 1 / 4;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card2{
+    color: white;
+    background-color: rgb(23, 99, 149);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card3{
+    color: white;
+    background-color: rgb(158, 158, 158);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card4{
+    color: white;
+    background-color: rgb(158, 158, 158);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card5{
+    color: white;
+    background-color: rgb(39, 139, 204);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card6{
+    color: white;
+    background-color: rgb(89, 174, 230);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card7{
+    color: white;
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card8{
+    color: white;
+    background-color: rgb(57, 138, 191);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card9{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card10{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card11{
+    color: white;
+    background-color: rgb(133, 133, 133);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card12{
+    color: white;
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card13{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card14{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card15{
+    color: white;
+    background-color: rgb(57, 88, 136);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card16{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card17{
+    color: white;
+    background-color: rgb(94, 195, 235);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card18{
+    color: white;
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card19{
+    color: white;
+    background-color: rgb(57, 138, 191);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card20{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card21{
+    color: white;
+    background-color: rgb(23, 99, 149);
+    padding: 20px;
+    font-size: 30px;
+    grid-column:3 /6 ;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Niramit';
+    width: 100%;
+    height: auto;
+    background: rgba(74, 166, 241, 0.253);
+    color: rgb(249,244,227);
+}
