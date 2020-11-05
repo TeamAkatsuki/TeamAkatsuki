@@ -1,7 +1,6 @@
 html{
     box-sizing: border-box;
     height: 100%
-    
 }
 
 body{
@@ -10,6 +9,9 @@ body{
     height: 100%;
     font-family: 'Niramit','Noto Sans KR',sans-serif;
     background-color: black;
+    animation-name: intro3;
+    animation-duration: 2s;
+    animation-fill-mode: both;
 }
 
 .top{
@@ -55,7 +57,7 @@ body{
 }
 
 #card3{
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(247, 162, 162);
 }
 
 #card4{
@@ -63,7 +65,7 @@ body{
 }
 
 #card5{
-    background-color: rgb(89, 174, 230);
+    background-color: rgb(197, 89, 230);
 }
 
 #card6{
@@ -75,11 +77,11 @@ body{
 }
 
 #card8{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(227, 158, 245);
 }
 
 #card9{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(3, 78, 66);
 }
 
 #card10{
@@ -87,7 +89,7 @@ body{
 }
 
 #card11{
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(5, 90, 105);
 }
 
 #card12{
@@ -95,7 +97,7 @@ body{
 }
 
 #card13{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(132, 151, 238);
 }
 
 #card14{
@@ -137,6 +139,15 @@ body{
     background: rgba(74, 166, 241, 0.253);
     color: rgb(249,244,227);
 }
+
+  @keyframes intro3{
+      0%{
+          opacity : 0;
+      }
+      100%{
+          opacity : 1;
+      }
+  }
 /* ---------------modal------------------- */
 
 /* The Modal (background) */
@@ -144,7 +155,7 @@ body{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 350px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -178,3 +189,10 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
+  @media screen and (max-width: 768px) {
+       .grid_container1{
+           display: block;
+       }
+     }
+
+  
