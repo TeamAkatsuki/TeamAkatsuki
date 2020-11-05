@@ -41,13 +41,17 @@ body{
 }
 
 
-.card1{
+.card{
     background-color: rgb(32,32,32);
     grid-column: 1 / 4;
 }
 
-#card2{
+#card1{
     background-color: rgb(23, 99, 149);
+}
+
+#card2{
+    background-color: rgb(158, 158, 158);
 }
 
 #card3{
@@ -55,39 +59,39 @@ body{
 }
 
 #card4{
-    background-color: rgb(158, 158, 158);
-}
-
-#card5{
     background-color: rgb(39, 139, 204);
 }
 
-#card6{
+#card5{
     background-color: rgb(89, 174, 230);
 }
 
-#card7{
+#card6{
     background-color: rgb(94, 94, 94);
 }
 
-#card8{
+#card7{
     background-color: rgb(57, 138, 191);
 }
 
-#card9{
+#card8{
     background-color: rgb(32, 32, 32);
 }
 
-#card10{
+#card9{
     background-color: rgb(44, 44, 44);
 }
 
-#card11{
+#card10{
     background-color: rgb(133, 133, 133);
 }
 
-#card12{
+#card11{
     background-color: rgb(12, 12, 12);
+}
+
+#card12{
+    background-color: rgb(22, 22, 22);
 }
 
 #card13{
@@ -95,34 +99,30 @@ body{
 }
 
 #card14{
-    background-color: rgb(22, 22, 22);
-}
-
-#card15{
     background-color: rgb(57, 88, 136);
 }
 
-#card16{
+#card15{
     background-color: rgb(22, 22, 22);
 }
 
-#card17{
+#card16{
     background-color: rgb(94, 195, 235);
 }
 
-#card18{
+#card17{
     background-color: rgb(66, 65, 65);
 }
 
-#card19{
+#card18{
     background-color: rgb(57, 138, 191);
 }
 
-#card20{
+#card19{
     background-color: rgb(22, 22, 22);
 }
 
-.card21{
+.card20{
     background-color: rgb(23, 99, 149);
     grid-column:3 /6 ;
 }
