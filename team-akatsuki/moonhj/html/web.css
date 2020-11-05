@@ -51,6 +51,9 @@ body{
     text-align: center;
 }
 
+.grid_container1>*:hover{
+    box-shadow: 1px 1px 20px #ddd;
+}
 
 .card{
     background-color: rgb(32,32,32);
@@ -66,7 +69,7 @@ body{
 }
 
 #card3{
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(119, 115, 115);
 }
 
 #card4{
@@ -106,7 +109,7 @@ body{
 }
 
 #card13{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(65, 63, 63);
 }
 
 #card14{
@@ -118,7 +121,7 @@ body{
 }
 
 #card16{
-    background-color: rgb(94, 195, 235);
+    background-color: rgba(92, 196, 236, 0.712);
 }
 
 #card17{
