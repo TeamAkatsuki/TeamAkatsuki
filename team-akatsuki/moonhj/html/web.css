@@ -10,8 +10,19 @@ body{
     height: 100%;
     font-family: 'Niramit','Noto Sans KR',sans-serif;
     background-color: black;
+    animation-name: intro1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
 }
 
+  @keyframes intro1{
+      0%{
+          opacity : 0;
+      }
+      100%{
+          opacity : 1;
+      }
+  }
 .top{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -146,7 +157,7 @@ body{
      /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 300px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -180,3 +191,8 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
+  @media only screen and (max-width:900px){
+      .grid_container1{
+          display: block;
+      }
+    }
